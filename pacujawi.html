@@ -1,0 +1,257 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<style>
+		.header{
+			/*background-image: url("1.png");*/
+			background-color:;
+			text-align:right;
+			padding:10px;
+		}
+		body {
+ 			 background-image: url("5.jpg");
+ 			 background-repeat: no-repeat;
+			 background-attachment: fixed;  
+  			 background-size: cover;
+		}
+
+		.topnav{
+			overflow:hidden;
+			background-color:rgba(0,0,0,0.2);
+		}
+/*style the topnav links*/
+		.topnav a{
+			float:left;
+			display:block;
+			color:#f2f2f2;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+		}
+/*change color on hover*/
+		.topnav a:hover{
+			background-color:rgba(0,0,0.4,0.5);
+			color:yellow;
+		}
+
+		/*dropdown*/
+		.dropbtn {
+  background-color:#373E4D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0,0,0,0.1)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.0);
+}
+
+/*pengaturan gambar*/
+
+	.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.9);
+	max-width: 300px; /*membuat ukuran div class card dengan ukuran lebar maksimal 300px*/
+	margin: center;/*membuat letak div rata tengah*/
+	text-align: center;/*membuat semua bentuk text dan simbol butto rata tengah*/
+	font-family:arial;
+	color: white;
+	}
+	.column{
+	float:left;
+	width:33.33%;
+	padding: 15px;
+	}
+	.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+	.img-container{
+	float:left;
+	width: 20%;
+	padding:10px;
+	margin: 20px;
+	border:0px solid black;
+	text-align:left;
+	}
+	.clearfix::after{
+	content: " "
+	clear:both;
+	display: table;
+	}
+
+	/*isi-Berita*/
+	.column{
+	float:left;
+	width:35.90%;
+	padding: 10px;
+	color :white;
+	background-color: rgba(0,0,0,0.3);
+	text-align: justify;
+	}
+.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+
+/*Gambar*/
+
+	#kanan{
+	float:right;
+	width:280px;
+	height:300px;
+	margin-left:-800px;
+	text-align: center;
+	}
+
+	.footer{
+			background-color:rgba(0,0,0,0.1);
+			text-align:left;
+			padding:20px;
+			color:yellow;
+			
+		}
+	.grup{
+		text-align: right;
+		padding:10px;
+		color:#F5BAC5;
+		font-family: Bradley Hand ITC;
+	}
+	.logo{
+		text-align: left;
+		padding-right: 50px;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="padding-right: 150px"><b style="color:#4F473C;
+			font-family: blackoak std;"><strong>F 	U 	 N 	 - 	 O 	 G 	</strong></b></h1>
+	</div>
+	<p><i style="color:#F6C2C1;
+			font-family: Bradley Hand ITC;"><b> Beautiful island in Indonesia </b> </i></p>
+		<div class="dropdown">
+		<button class="dropbtn"> Home</button>
+		<div class="dropdown-content">
+			<a href="pesonaindonesia.html">Menu Utama</a>
+		</div>
+		</div>
+	<div class="dropdown">
+		<button class="dropbtn">What To See</button>
+		<div class="dropdown-content">
+		<a href="Destinasi.html">Destinasi</a>
+		<a href="atraksi.html">Aktrasi</a>
+		<a href="event.html">Event dan festival</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn" style="text-align: left">What To Do</button>
+		<div class="dropdown-content">
+		<a href="5wonders.html">4 Wonders</a>
+		<a href="#">Trips Ideas</a>
+		<a href="#">Travel Blog</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Plan Your Trip</button>
+		<div class="dropdown-content">
+		<a href="#">General Information</a>
+		<a href="#">Packages</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Go Explore</button>
+		<div class="dropdown-content">
+		<a href="#">Destinasi</a>
+		<a href="#">Aktrasi</a>
+
+	</div>
+	</div>
+	<b><h1 style="color: white; text-align: center; font-family: kristen ITC;" >Pacu Jawi, Sumatera Barat</h1></b>
+	<div class="row">
+		<div class="column">
+	<img src="z10.jpg" alt="Big Project" width="300px" height="100px" >
+	<p style="color: white"><i>Pacu Jawi</i>KALAU di Madura ada karapan sapi, maka di Sumatera Barat ada pacu jawi. Perbedaan mendasar dari kedua atraksi wisata ini adalah kondisi arena. Karapan sapi cenderung berada di lahan kering. Sementara pacu jawi di lahan yang becek.Tak mengherankan bila kemudian joki pada pacu jawi belepotan lumur di sekujur tubuhnya. Bahkan wajahnya tertutupi lumpur hanya menyisakan matanya saja. Pacu jawi dilaksanakan secara bergiliran di desa yang masuk dalam empat kecamatan yakni Pariangan, Rambatan, Lima Kaum dan Sungai Tarab yang semuanya masuk dalam Kabupaten Tanah Datar, Sumatera Barat. Pacu jawi dilaksanakan saban hari Sabtu dan Minggu.</p></div>
+	<div class="column">
+	<p style="color: white">Informasi penyelenggaraan bisa didapat dari warga lokal atau Dinas Pariwisata, Pemuda, dan Olah raga Kabupaten Tanah Datar, Sumatra Barat. Biasanya wisatawan bermalam di Kota Batusangkar, Ibu Kota Kabupaten Tanah Datar. Dari kota itu dapat menggunakan rental kendaraan sampai ke lokasi pacu jawi.Nikmati kemeriahan Pacu Jawi. Masing-masing joki bertanggung jawab pada dua sapi pacuan. Joki pacu jawi berdiri di atas kayu yang menjadi satu rangkaian dengan bagian depan sapi. Joki akan memegang ekor sapi sepanjang kompetisi. Terkadang ada sapi yang tak menurut, melenceng tak menentu. Ini yang kemudian menjadi tontonan yang sangat menarik.
+	Pacu Jawi sudah ada sejak ratusan tahun lalu dan menjadi hiburan rakyat. Biasanya dilakukan seusai panen dan dilakukan di sawah-sawah berlumpur. Tradisi itu bukan hanya hiburan rakyat, namun juga menjadi sarana bersosialisasi masyarakat antardesa.</p>
+	<img src="z13.jpg" alt="Big Project" width="300px" height="100px" >
+</div>
+	<div id="kanan">
+				<b><p style="font-size:15px; font-family: bradley Hand ITC; color:#322325">Atraksi Budaya Indonesia Yang Memukau</p></b>
+		<div class="clearfix">
+			<div class="card">
+				<img src="zz.jpg" alt="Big Project" width="250px" height="100px"></img>
+				<p>Dubas<a style="color:yellow"> Jawa Barat</a></p>
+			</div>
+			<div class="card">
+				<img src="z1.jpg" alt="Big Project" width="250px" height="100px"></img>
+				<p>Reog Tengger<a style="color:yellow"> Jawa Timur</a></p>
+			</div>
+			<div class="card">
+				<img src="z2.jpg" alt="Big Project" width="250px" height="100px"></img>
+				<p>Tari Kecak<a style="color:yellow"> Pulau Bali</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="footer">
+		
+		<h1 style="padding-right:40px" style="font-family: Bradley Hand ITC"> Fun-Og</h1>
+		<p><i> Pesona Indonesia </i></p>
+		<p><i> Beautiful island in Indonesia </i></p>
+		<div class="topnav">
+		<a href="#">Kementerian Pariwisata     	 | </a>
+			<a href="#">Kebijakan Privasi 		 | </a>
+			<a href="#">Syarat dan Ketentuan 	 | </a>
+			<a href="#">Hubungi Kami </a>
+		</div><br>
+	<div class="logo">
+		<a href="#"><img src="m.png" alt="Big Project"></a>
+		<a href="#"><img src="n.png" alt="Big Project"></a>
+		<a href="#"><img src="o.png" alt="Big Project"></a>
+		<a href="#"><img src="p.png" alt="Big Project"></a>
+	</div>
+		<div class="grup">
+			<h2><i>Grup Fun-Og</i></h2>
+			<h5>FeniOktaAgmel</h5>
+		</div>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<style>
+
+		.header{
+			/*background-image: url("1.png");*/
+			background-color:;
+			text-align:right;
+			padding:10px;
+
+		}
+		body {
+ 			 background-repeat: no-repeat;
+			 background-attachment: fixed;  
+  			 background-size: cover;
+  			 background-color:#CC9A89;
+		}
+
+		.topnav{
+			overflow:hidden;
+			background-color:rgba(0,0,0,0.2);
+		}
+/*style the topnav links*/
+		.topnav a{
+			float:left;
+			display:block;
+			color:#f2f2f2;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+		}
+/*change color on hover*/
+		.topnav a:hover{
+			background-color:rgba(0,0,0.4,0.5);
+			color:yellow;
+		}
+
+		/*dropdown*/
+		.dropbtn {
+  background-color:#373E4D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0,0,0,0.1)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.0);
+}
+
+/*pengaturan gambar*/
+
+	.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.9);
+	max-width: 300px; /*membuat ukuran div class card dengan ukuran lebar maksimal 300px*/
+	margin: center;/*membuat letak div rata tengah*/
+	text-align: center;/*membuat semua bentuk text dan simbol butto rata tengah*/
+	font-family:arial;
+	color: white;
+	}
+	.column{
+	float:left;
+	width:33.33%;
+	padding: 15px;
+	}
+	.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+	.img-container{
+	float:left;
+	width: 20%;
+	padding:10px;
+	margin: 20px;
+	border:0px solid black;
+	text-align:left;
+	}
+	.clearfix::after{
+	content: " "
+	clear:both;
+	display: table;
+	}
+
+	/*isi-Berita*/
+	.column{
+	float:left;
+	width:35.90%;
+	padding: 10px;
+	color :white;
+	background-color: rgba(0,0,0,0.3);
+	text-align: justify;
+	}
+.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+
+/*Gambar*/
+
+	#kanan{
+	float:right;
+	width:280px;
+	height:300px;
+	margin-left:-800px;
+	}
+
+	.footer{
+			background-color:rgba(0,0,0,0.1);
+			text-align:left;
+			padding:20px;
+			color:yellow;
+			
+		}
+	.grup{
+		text-align: right;
+		padding:10px;
+		color:#F5BAC5;
+		font-family: Bradley Hand ITC;
+	}
+	.logo{
+		text-align: left;
+		padding-right: 50px;
+
+	}
+	
+h1 {
+  text-shadow: 3px 3px;
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="padding-right: 150px"><b style="color:Black; font-size: 40px;
+			font-family:ocr a std;"><strong>T O U R N E S I A </strong></b></h1>
+			<marquee direction="left" style="font-color: white">LIVE , TRAVEL , ADVENTURE , BLESS , AND DONT BE SORRY</marquee>
+	</div>
+	<p><i style="color:#832F2F;
+			font-family: Bradley Hand ITC;"><b> Beautiful island in Indonesia </b> </i></p>
+		<div class="dropdown">
+		<button class="dropbtn"> Home</button>
+		<div class="dropdown-content">
+			<a href="pesonaindonesia.html">Menu Utama</a>
+		</div>
+		</div>
+	<div class="dropdown">
+		<button class="dropbtn">What To See</button>
+		<div class="dropdown-content">
+		<a href="Destinasi.html">Destinasi</a>
+		<a href="atraksi.html">Aktrasi</a>
+		<a href="event.html">Event dan Festival</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn" style="text-align: left">What To Do</button>
+		<div class="dropdown-content">
+		<a href="5wonders.html">4 Wonders</a>
+		<a href="travelblog.html">Travel Blog</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Plan Your Trip</button>
+		<div class="dropdown-content">
+		<a href="Information.html">General Information</a>
+
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Go Explore</button>
+		<div class="dropdown-content">
+		<a href="aboutus.html">Experience</a>
+	
+	</div>
+	</div>
+	<hr color="white">
+
+
+<body>
+
+<fieldset>
+	<h3>Form Pendaftaran TOURNESIA</h3>
+	<p><label>Nama : </label><br>
+	<input type="text" name="nama" placeholder= " "/>
+	<p><label>Hobby : </label><br>
+	<input type="text" name="Hobby" placeholder= " "/>
+	<p><label>Agama : </label><br>
+	<input type="text" name="agama" placeholder= " "/>
+	<p><label>No. Hp : </label><br>
+	<input type="text" name="hp" placeholder= " "/>
+	<p><label>Email : </label><br>
+	<input type="text" name="email" placeholder= " "/>
+	<p><label>Tempat Tanggal Lahir : </label><br>
+	<input type="text" name="tempat" placeholder= "Tempat Lahir "/>
+	<input type="text" name="tanggal" placeholder= "03/10/1997 "/>
+	<p> 
+	<label>Adventure : </label><br>
+	<select name ="Adventure : ">
+		<option value ="Nature, Scenic Landscape, and wildlife">Nature, Scenic Landscape, and wildlife</option>
+		<option value ="Pecinta Kuliner">Pecinta Kuliner</option>
+		<option value ="Seni, Budaya & Warisan">Seni, Budaya & Warisan</option>
+		<option value ="Rekreasi dan Petualangan">Rekreasi dan Petualangan</option>
+	</select></p>
+	<p>
+	<label>Jenis Kelamin : </label><br>
+	<label><input type="radio" name="jenis kelamin" value="laki-laki"/>laki-laki</label>
+	<label><input type="radio" name="jenis kelamin" value="perempuan"/>perempuan</label>
+	</p>
+	<h4>Upload Foto : </h4>
+	<p>
+	<input type ="submit" name ="submit" value="Browse..."> No File Selected.
+	</p>
+	<p>
+	<label>Alamat : </label><br>
+	<textarea name ="Alamat"></textarea>
+	</p>
+	<p>
+	<input type ="submit" name ="submit" value="Submit"> 
+	<input type ="submit" name ="submit" value="Back"> 
+	</p>
+
+</fieldset>
+
+<div class="footer">
+		
+		<h2 style="padding-right:40px" style="font-family: Bradley Hand ITC"> Fun-Og</h2>
+		<p><i> Pesona Indonesia </i></p>
+		<p><i> Beautiful island in Indonesia </i></p>
+		<div class="topnav">
+		<a href="#">Kementerian Pariwisata     	 | </a>
+			<a href="#">Kebijakan Privasi 		 | </a>
+			<a href="#">Syarat dan Ketentuan 	 | </a>
+			<a href="member.html">Hubungi Kami</a>
+		</div><br>
+	<div class="logo">
+		<a href="member.html"><img src="m.png" alt="Big Project"></a>
+		<a href="member.html"><img src="n.png" alt="Big Project"></a>
+		<a href="member.html"><img src="o.png" alt="Big Project"></a>
+		<a href="member.html"><img src="p.png" alt="Big Project"></a>
+	</div>
+		<div class="grup">
+			<h2><i>Grup Fun-Og</i></h2>
+			<h5>FeniOktaAgmel</h5>
+		</div>
+
+	</div>
+
+
+	<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['rain1']="http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png";image_urls['rain2']="http://4.bp.blogspot.com/-teXCIicWPF4/TpWcLLg0A2I/AAAAAAAAG0U/IPPCr1gponc/pinkpetal2.png";image_urls['rain3']="http://3.bp.blogspot.com/-3JG9HLECCRU/TpWcLZGSYtI/AAAAAAAAG0g/zIJINua93TE/redpetal1.png";image_urls['rain4']="http://2.bp.blogspot.com/-BByhQEK5E24/TpWcLux4xRI/AAAAAAAAG0s/x2hIr1AV_Ac/redpetal2.png";$(document).ready(function(){var c=$(window).width();var d=$(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(7500,8000),function(){$(this).fadeOut('slow',function(){f(a)})})},e(1,8000))};$('<div></div>').attr('id','rainDiv')
+.css({position:'fixed',width:(c-20)+'px',height:'1px',left:'0px',top:'-5px',display:'block'}).appendTo('body');for(var i=1;i<=20;i++){var g=$('<img/>').attr('src',image_urls['rain'+e(1,4)])
+.css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('rainDrop').appendTo('#rainDiv');f(g);g=null};var h=0;var j=0;$(window).resize(function(){c=$(window).width();d=$(window).height()})});</script>
+<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>$(document).ready(function(){var a=$('<img>').attr({'src':'http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png','border':0});$('<a></a>').css({position:'absolute',right:'0px',top:'22px','z-index':'90'}).attr({'href':'http://tutorialuntukblog.blogspot.com/2011/10/tutorial-kelopak-bunga-berguguran-di.html'}).append(a).appendTo('body')});</script>
+
+</body>
+</html>

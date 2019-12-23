@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.header{
+			/*background-image: url("1.png");*/
+			background-color:;
+			text-align:right;
+			padding:10px;
+	
+		}
+		body {
+ 			 background-image: url("5.jpg");
+ 			 background-repeat: no-repeat;
+			 background-attachment: fixed;  
+  			 background-size: cover;
+		}
+
+		.topnav{
+			overflow:hidden;
+			background-color:rgba(0,0,0,0.2);
+		}
+/*style the topnav links*/
+		.topnav a{
+			float:left;
+			display:block;
+			color:#f2f2f2;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+		}
+/*change color on hover*/
+		.topnav a:hover{
+			background-color:rgba(0,0,0.4,0.5);
+			color:yellow;
+		}
+
+		/*dropdown*/
+		.dropbtn {
+  background-color:#373E4D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0,0,0,0.1)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.0);
+}
+
+/*pengaturan gambar*/
+
+	.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.9);
+	max-width: 300px; /*membuat ukuran div class card dengan ukuran lebar maksimal 300px*/
+	margin: center;/*membuat letak div rata tengah*/
+	text-align: center;/*membuat semua bentuk text dan simbol butto rata tengah*/
+	font-family:arial;
+	color: white;
+	}
+	.column{
+	float:left;
+	width:33.33%;
+	padding: 15px;
+	}
+	.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+	.img-container{
+	float:left;
+	width: 20%;
+	padding:10px;
+	margin: 20px;
+	border:0px solid black;
+	text-align:left;
+	}
+	.clearfix::after{
+	content: " "
+	clear:both;
+	display: table;
+	
+	}
+
+	/*isi-Berita*/
+	.column{
+	float:left;
+	width:35.90%;
+	padding: 10px;
+	color :white;
+	background-color: rgba(0,0,0,0.3);
+	text-align: justify;
+	}
+.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+
+/*Gambar*/
+
+	#kiri{
+	float:left;
+	width : 450px;
+	height: 200px;
+
+	}
+	#kanan{
+	float:right;
+	width: 450px;
+	height:200px;
+	}
+	p{
+		text-align: justify;
+		}
+
+	.footer{
+			background-color:rgba(0,0,0,0.1);
+			text-align:left;
+			padding:20px;
+			color:yellow;
+			
+		}
+	.grup{
+		text-align: right;
+		padding:10px;
+		color:#8E3431;
+		font-family: Bradley Hand ITC;
+	}
+	.logo{
+		text-align: left;
+		padding-right: 50px;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="padding-right: 150px"><b style="color:#4F473C;
+			font-family: blackoak std;"><strong>F 	U 	 N 	 - 	 O 	 G 	</strong></b></h1>
+	</div>
+		<p><i style="color:#F6C2C1;
+			font-family: Bradley Hand ITC;"><b> Beautiful island in Indonesia </b> </i></p>
+		<div class="dropdown">
+		<button class="dropbtn"> Home</button>
+		<div class="dropdown-content">
+			<a href="pesonaindonesia.html">Menu Utama</a>
+		</div>
+		</div>
+	<div class="dropdown">
+		<button class="dropbtn">What To See</button>
+		<div class="dropdown-content">
+		<a href="Destinasi.html">Destinasi</a>
+		<a href="aktrasi.html">Aktrasi</a>
+		<a href="event.html">Event dan Festival</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn" style="text-align: left">What To Do</button>
+		<div class="dropdown-content">
+		<a href="5wonders.html">4 Wonders</a>
+		<a href="#">Trips Ideas</a>
+		<a href="#">Travel Blog</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Plan Your Trip</button>
+		<div class="dropdown-content">
+		<a href="#">General Information</a>
+		<a href="#">Packages</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Go Explore</button>
+		<div class="dropdown-content">
+		<a href="#">Destinasi</a>
+		<a href="#">Aktrasi</a>
+		<a href="#">Event</a>
+		<a href="#">Festival</a>
+	</div>
+	</div>
+	<hr color="white">
+	<h1 style="color: white">Destinasi di Indonesia yang Wajib Kamu Kunjungi Di Liburanmu Kali ini </h1>
+		<h2 style="color:#E8EBED"><b> 1. Kawah Ijen, Banyuwangi Jawa Timur </b></h2>
+		<img id ="kiri" src="t.jpg" alt="Big Project">
+			<p style="color: white"><mark> Kawah Ijen merupakan salah satu tempat wisata di Indonesi yang punya Blue Fire alias api abadi. Danau belerang ini punya tosca yang indah. Tidak heran pelancong rela mendaki demi menyaksikannya. Sebelum naik sebaiknya persiapkan fisik yang matang, karena perjalanan dapat memakan waktu sekitar 4 jam.<br>
+			Jangan lupa selalu kenakan masker selama perjalanan. Dikarenakan bau belerangnya cukup menusuk hidung. Kalau mau menyaksikan Blue Fire, pastikan sampai di lokasi ketika pagi dini hari menjelang subuh.</p></mark>
+		<br><br><br><br><br>
+		<h2 style="color:#E8EBED"><b> 2. Gili Trawangan, Nusa Tenggara Barat </b></h2>
+		<img id ="kanan" src="s.jpg" alt="Big Project">
+		<p style="color: white"><mark> Nama Gili Trawangan sendiri sudah terkemuka di Indonesia. Salah satu pesonannya adalah pantai-pantai 	cantik di dalamnya. Teman Traveler yang traveling ke sini pasti akan tersihir dengan pesona-pesona yang ditwarkan. Kamu suka 		tempat yang sedikit private? Datang saja ke Gili Trawangan di sisi barat, tak seramai di sisi timur.</p></mark>
+		<br><br><br><br><br>
+		<h2 style="color:#E8EBED"><b> 3. Taman Laut Bunaken, Manado, Sulawesi Utara </b></h2>
+		<img id ="kiri" src="r.jpg" alt="Big Project">
+		<p style="color: white"><mark> Di sini ada destinasi bernama Taman Laut Bunaken yang memiliki panorama yang begitu memanjakan mata. Karena hal itulah, tak salah jika tempat ini sering jadi jujukan utama saat jelajah Sulawesi Utara.
+		Di dalam Taman Laut Bunaken yang memiliki luas sekitar 890.65 km ini terdapat beragam jenis terumbu karang yang cantik. Tak hanya itu saja, banyak juga spesies ikan yang jumlahnya mencapai puluhan. Datanglah ke sini pada bulan Mei-Agustus untuk dapat melihat air laut yang jernih.</p></mark>
+		<br><br><br><br><br>
+		<h2 style="color:#E8EBED"><b> 4. Ayunan Ombak Sunset, Gili Trawangan </b></h2>
+		<img id ="kanan" src="q.jpg" alt="Big Project">
+		<p style="color: white"><mark> Ternyata ayunan yang menjadi objek wisata juga terdapat di Indonesia, tepatnya di Gili Trawangan.
+			Berbeda dengan 2 ayunan di tepi pantai sebelumnya, yang satu ini letaknya agak sedikit ke tengah laut, dengan tulisan 'Ombak Sunset' di atasnya.
+			Ombak Sunset Swing ini populer di kalangan turis lokal dan mancanegara, bahkan sudah menjadi salah satu ikon Gili Trawangan.
+			Nikmati saat-saat sunset yang indah sambil berayun-ayun di tengah laut..</p></mark>
+		<br><br><br><br><br>
+		<h2 style="color:#E8EBED"><b> 5. Rasakan kekuatan alam di Air Terjun Matayangu </b></h2>
+		<img id ="kiri" src="k.jpg" alt="Big Project">
+		<p style="color: white"><mark> Ini mungkin air terjun paling unik di Sumba. Air terjun setinggi 75 meter ini “muncrat” melalui celah di dinding tebing, memancarkan air menderu ke kolam biru yang jernih.
+		Dalam bahasa setempat, Matayangu berarti “berhenti di sini”, mengacu pada kepercayaan tradisional bahwa roh leluhur Marapu menetap di sini.Ada sebuah gua kecil di balik air terjun yang hanya terlihat selama musim kemarau saat volume air sedang turun.
+		Matayangu terletak di Taman Nasional Manupeu Tanah Daru, di mana Anda dapat menemukan flora dan fauna yang unik. Misalnya, jika memiliki mata yang tajam, Anda bisa menemukan 57 spesies kupu-kupu, termasuk tujuh spesies endemik asli Pulau Sumba!</p></mark>
+		<br><br><br><br><br>
+			<div class="footer">
+		
+		<h1 style="padding-right:40px" style="font-family: Bradley Hand ITC"> Fun-Og</h1>
+		<p><i> Pesona Indonesia </i></p>
+		<p><i> Beautiful island in Indonesia </i></p>
+		<div class="topnav">
+		<a href="#">Kementerian Pariwisata     	 | </a>
+			<a href="#">Kebijakan Privasi 		 | </a>
+			<a href="#">Syarat dan Ketentuan 	 | </a>
+			<a href="#">Hubungi Kami </a>
+		</div><br>
+	<div class="logo">
+		<a href="#"><img src="m.png" alt="Big Project"></a>
+		<a href="#"><img src="n.png" alt="Big Project"></a>
+		<a href="#"><img src="o.png" alt="Big Project"></a>
+		<a href="#"><img src="p.png" alt="Big Project"></a>
+	</div>
+		<div class="grup">
+			<h2><i>Grup Fun-Og</i></h2>
+			<h5>FeniOktaAgmel</h5>
+		</div>
+
+	</div>
+
+</body>
+</html>

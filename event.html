@@ -1,0 +1,280 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<style>
+		.header{
+			/*background-image: url("1.png");*/
+			background-color:;
+			text-align:right;
+			padding:10px;
+		}
+		body {
+ 			 background-image: url("6.jpg");
+ 			 background-repeat: no-repeat;
+			 background-attachment: fixed;  
+  			 background-size: cover;
+		}
+
+		.topnav{
+			overflow:hidden;
+			background-color:rgba(0,0,0,0.2);
+		}
+/*style the topnav links*/
+		.topnav a{
+			float:left;
+			display:block;
+			color:#f2f2f2;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+		}
+/*change color on hover*/
+		.topnav a:hover{
+			background-color:rgba(0,0,0.4,0.5);
+			color:yellow;
+		}
+
+		/*dropdown*/
+		.dropbtn {
+  background-color:#373E4D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0,0,0,0.1)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.0);
+}
+
+/*pengaturan gambar*/
+
+	.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.9);
+	max-width: 300px; /*membuat ukuran div class card dengan ukuran lebar maksimal 300px*/
+	margin: center;/*membuat letak div rata tengah*/
+	text-align: center;/*membuat semua bentuk text dan simbol butto rata tengah*/
+	font-family:arial;
+	color: white;
+	}
+	.column{
+	float:left;
+	width:33.33%;
+	padding: 15px;
+	}
+	.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+	.img-container{
+	float:left;
+	width: 20%;
+	padding:10px;
+	margin: 20px;
+	border:0px solid black;
+	text-align:left;
+	}
+	.clearfix::after{
+	content: " "
+	clear:both;
+	display: table;
+	}
+
+	/*isi-Berita*/
+	.column{
+	float:left;
+	width:35.90%;
+	padding: 10px;
+	color :white;
+	background-color: rgba(0,0,0,0.3);
+	text-align: justify;
+	}
+.row:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+
+/*Gambar*/
+
+	#kanan{
+	float:right;
+	width:280px;
+	height:300px;
+	margin-left:-600px;
+	}
+
+	.footer{
+			background-color:rgba(0,0,0,0.1);
+			text-align:left;
+			padding:20px;
+			color:yellow;
+			
+		}
+	.grup{
+		text-align: right;
+		padding:10px;
+		color:#F5BAC5;
+		font-family: Bradley Hand ITC;
+	}
+	.logo{
+		text-align: left;
+		padding-right: 50px;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="padding-right: 150px"><b style="color:#4F473C;
+			font-family: blackoak std;"><strong>F 	U 	 N 	 - 	 O 	 G 	</strong></b></h1>
+	</div>
+	<p><i style="color:#F6C2C1;
+			font-family: Bradley Hand ITC;"><b> Beautiful island in Indonesia </b> </i></p>
+		<div class="dropdown">
+		<button class="dropbtn"> Home</button>
+		<div class="dropdown-content">
+			<a href="pesonaindonesia.html">Menu Utama</a>
+		</div>
+		</div>
+	<div class="dropdown">
+		<button class="dropbtn">What To See</button>
+		<div class="dropdown-content">
+		<a href="Destinasi.html">Destinasi</a>
+		<a href="atraksi.html">Aktrasi</a>
+		<a href="#">Event dan Festival</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn" style="text-align: left">What To Do</button>
+		<div class="dropdown-content">
+		<a href="5wonders.html">4 Wonders</a>
+		<a href="#">Trips Ideas</a>
+		<a href="#">Travel Blog</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Plan Your Trip</button>
+		<div class="dropdown-content">
+		<a href="#">General Information</a>
+		<a href="#">Packages</a>
+	</div>
+	</div>
+		<div class="dropdown">
+		<button class="dropbtn">Go Explore</button>
+		<div class="dropdown-content">
+		<a href="#">Destinasi</a>
+		<a href="#">Aktrasi</a>
+		<a href="#">Event</a>
+		<a href="#">Festival</a>
+	</div>
+	</div>
+	<b><h1 style="color:#E8A8B8; text-align: center; font-family: exotc350 bd bt;" >EVENT DAN FESTIVAL YANG ADA DI INDONESIA</h1></b>
+	<h3 style="text-align: left; font-family: microsoft uighur; color: #F6EDE2; font-size: 20px">Berikut daftar event berdasarkan Calendar of Event (CoE) Kementerian Pariwisata 2019 sepanjang akhir Juli sampai Desember.</h3>
+	<div class="row">
+		<div class="column">
+			<p><b>Akhir Juli</b> ini terdapat event menarik di Solo, Banyuwangi dan Bunaken. Solo memiliki event Solo Batik Carnival (SBC) di mana wisatawan bisa menikmati parade orang-orang dengan berbagai kreasi baju yang penuh sentuhan kreativitas. Mirip dengan SBC, Banyuwangi memiliki event Banyuwangi Ethno Carnival yang juga menampilkan karnaval dengan pakaiannya yang unik. Sementara di Sulawesi Utara terdapat Festival Pesona Bunaken. Bunaken terkenal dengan potensi lautnya yang elok. Selain menikmati laut, wisatawan juga bisa menyaksikan ragam atraksi dan lomba. Seperti lomba menghias kapal, kolintang dan Maengket.<br>
+			AKHIR JULI<br>
+			26 - 28 Juli - Solo Batik Carnival, Jawa Tengah<br>
+			28 Juli - Banyuwangi Ethno Carnival, Jawa Timur <br>
+			26 - 29 Juli - Festival Pesona Bunaken, Sulawesi Utara.</p>
+		<p><b>AGUSTUS</b> Beberapa event di Bulan Agustus juga cukup menarik. Salah satunya adalah Dieng Culture Festival di mana wisatawan bisa melihat prosesi pemotongan rambut gimbal pada anak-anak.<br> Berikut lengkapnya: 27 - 3 Agustus- Festival Cisadane, Banten <br>30 - 3 Agustus -Jember Fashion Carnaval (JFC), Jawa Timur<br> 1 - 6 Agustus - Polewali Mandar International Folk & Art Festival, Sulawesi Barat<br> 2 - 4 Agustus - Dieng Culture Festival, Jawa Tengah<br> 2 - 6 Agustus - Buleleng Festival, Bali<br> 3 - 4 Agustus - Festival Cheng Ho, Jawa Tengah<br> 4 - 5 Agustus - Festival Morotai, Maluku Utara<br> 4 - 6 Agustus - Aceh Culinary Festival, Aceh<br> 7 - 10 Agustus - Festival Budaya Lembah Baliem, Papua<br> 7 - 12 Agustus - Tomohon International Flower Festival, Sulawesi Utara<br> 9 - 11 Agustus - Pasa Harau Art & Culture Festival 2019, Sumatera Barat<br> 11 - 17 Agustus - Festival Sandeq Race 2019, Sulawesi Barat <br>18 Agustus - Saman Gayo Alas Festival, Aceh <br>18 Agustus - Karnaval Kemerdekaan/Grand Karnaval Indonesia, DKI Jakarta<br> 18 - 20 Agustus - Festival Teluk Ambon, Maluku<br> 21 - 25 Agustus - Lampung Krakatau Festival, Lampung<br> 21 - 25 Agustus - Sanur Village Festival, Bali<br> 23 - 25 Agustus - Festival Budaya Wisata Pasar Terapung, Kalimantan Selatan
+		</p>
+		<p><b>SEPTEMBER</b> tahun ini, gelaran event wisata juga cukup menarik. Salah satunya adalah Tour de Siak 2019. Tour de Siak Riau ini merupakan event lomba balap sepeda internasional.<br> Berikut rinciannya: 1 - 10 September - Festival Tabut, Bengkulu<br> 4 - 8 September - F8 Makassar 2019, Sulawesi Selatan<br> 5 - 7 September - Solo International Performing Art, Jawa Tengah<br> 5 - 10 September - Festival Bahari Kepri, Kepulauan Riau<br> 6 - 8 September - Festival Wisata Loksado, Kalimantan Selatan<br> 9 - 16 September - Festival Payung Indonesia, Jawa Tengah<br> 9 - 16 September - Festival Moyo, Nusa Tenggara Barat<br> 12 - 15 September - Festival Pinisi, Sulawesi Selatan<br> 13 - 15 September - Tour de Linggar Jati, Jawa Barat<br> 15 September - Malang Flower Carnival, Jawa Timur<br> 15 September - Ciletuh Geopark Festival, Jawa Barat<br> 17 - 21 September - Tour de Siak, Riau<br> 21 - 22 September - Jogja International Street Performance, D.I. Yogyakarta<br> 21 - 25 September - Festival Pesona Danau Limboto, Gorontalo<br> 21 - 29 September - Erau Adat Kutai & 7th International Folk Art Festival, Kalimantan Timur<br> 22 - 25 September - Festival Batanghari, Jambi<br> 23 - 26 September - Tour de Ijen, Jawa Timur<br> 27 - 29 September - Festival Tanjung Lesung, Banten<br> 28 - 29 September - Musik Alam 2019, Kalimantan Utara
+		</p>
+		</div>
+			<div class="column">
+				<p><b>OKTOBER</b> Salah satu event yang menarik pada Oktober tahun ini adalah event IronMan 70.3 yang akan digelar di Bintan. Event berskala ini merupakan ajang pertandingan berenang, bersepeda dan berlari.<br> Berikut rinciannya: 1 - 6 Oktober - Festival Likurai Timor, Nusa Tenggara Timur<br> 6 Oktober - Festival Karnaval Karawo, Gorontalo<br> 6 - 7 Oktober - Aceh International Diving Festival, Aceh<br> 6 - 10 Oktober - Festival Pesona Selat Lembeh, Sulawesi Utara<br> 7 - 11 Oktober - Festival Seni Budaya Papua Barat, Papua Barat<br> 12 - 17 Oktober - Festival Keraton Kesultanan Buton, Sulawesi Tenggara<br> 15 - 19 Oktober - Festival Danau Poso, Sulawesi Tengah<br> 18 - 21 Oktober - Festival Pesona Bahari Raja Ampat, Papua<br> 19 - 21 Oktober - IronMan 70.3 Bintan , Kepulauan Riau<br> 19 - 25 Oktober - Jakarta Fashion Week, DKI Jakarta<br> 20 Oktober - Gandrung Sewu, Jawa Timur<br> 23 - 25 Oktober - Festival Danau Sentarum, Kalimantan Barat<br> 23 - 27 Oktober - Ubud Writers and Readers Festival, Bali<br> 23 - 28 Oktober - Festival Takabonerate, Sulawesi Selatan<br> 25 - 27 Oktober - Pesona Nusa Dua Fiesta 2019, Bali<br> 27 Oktober - Jakarta Marathon, DKI Jakarta<br> 27 - 29 Oktober - Festival Pulo Dua, Sulawesi Tengah</p>
+				<p><b>NOVEMBER </b>tahun ini, wisatawan juga bisa menikmati event Tanjung Kelayang, Wakatobi Wave, serta Borobudur Marathon.<br> Berikut lengkapnya: 1 - 3 November - Festival Mahakam, Kalimantan Timur<br> 2 - 10 November - Tour de Singkarak, Sumatera Barat<br> 3 - 7 November - Festival Kerinci 2019, Jambi<br> 10 - 15 November - Festival Bekudo Bono, Riau<br> 11 - 13 November - Wakatobi Wave 2019, Sulawesi Tenggara<br> 11 - 14 November - Pesta Rakyat Banda, Maluku<br> 15 - 19 November - Festival Tanjung Kelayang, Kepulauan Bangka Belitung<br> 16 - 17 November - Jogja International Heritage Walk, D.I. Yogyakarta<br> 16 - 20 November - Festival Ya'ahowu, Sumatera Utara<br> 17 November - Borobudur Marathon, Jawa Tengah</p>
+				<p><b>Desember</b> wisatawan bisa menikmati agenda Festival Danau Toba yang menarik serta Festival Budaya Cirebon.<br> Berikut lengkapnya: 1 - 31 Desember - Iraw Tengkayu, Kalimantan Utara<br> 4 - 7 Desember - Festival Pesona Budaya Minangkabau, Sumatera Barat<br> 7 - 8 Desember - Batam International Culture Carnival, Kepulauan Riau<br> 9 - 12 Desember - Festival Danau Toba, Sumatera Utara<br> 13 - 16 Desember - Pemuteran Bay Festival, Bali<br> 28 Desember - Festival Budaya Cirebon, Jawa Barat </p><br><br><br>
+				<img src="a1.jpg" alt="Big Project" width="200px" height="100px">
+				<img src="a2.jpg" alt="Big Project" width="200px" height="100px"><br>
+				<img src="a3.jpg" alt="Big Project" width="200px" height="100px">
+				<img src="a4.jpg" alt="Big Project" width="200px" height="100px">
+
+				<p><i>Lihat Berita update lainnya di Fun-Og</i></p>
+			</div>
+			<div id="kanan">
+				<div class="clearfix"><div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/CsB3Oacs6yA"></iframe> 
+				<p> Banyuwangi Ethno Carnival <a style="color:yellow"> Jawa Timur</a></p>
+			</div>
+			<div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/msbRhL4GA48"></iframe> 
+				<p> Festival Morotai<a style="color:yellow"> Maluku Utara</a></p>
+			</div>
+			<div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/rI8MLbeCORc"></iframe> 
+				<p> Malang Flower Carnival<a style="color:yellow"> Jawa Timur</a></p>
+			</div>
+			<div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/pPIhXKGPdpI"></iframe> 
+				<p>  Ubud Writers and Readers Festival<a style="color:yellow"> Bali</a></p>
+			</div>
+			<div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/V_VRik_tz7E"></iframe> 
+				<p> Pesta Rakyat Banda<a style="color:yellow"> Maluku</a></p>
+			</div>
+			<div class="card" style="padding-left:10px">
+				<iframe src="https://www.youtube.com/embed/v=Cl03rX-Irx8"></iframe> 
+				<p> Festival Danau Toba<a style="color:yellow"> Sumatera Utar</a></p>
+			</div>
+	</div>
+	</div>
+</div>
+	<div class="footer">
+		
+		<h1 style="padding-right:40px" style="font-family: Bradley Hand ITC"> Fun-Og</h1>
+		<p><i> Pesona Indonesia </i></p>
+		<p><i> Beautiful island in Indonesia </i></p>
+		<div class="topnav">
+		<a href="#">Kementerian Pariwisata     	 | </a>
+			<a href="#">Kebijakan Privasi 		 | </a>
+			<a href="#">Syarat dan Ketentuan 	 | </a>
+			<a href="#">Hubungi Kami </a>
+		</div><br>
+	<div class="logo">
+		<a href="#"><img src="m.png" alt="Big Project"></a>
+		<a href="#"><img src="n.png" alt="Big Project"></a>
+		<a href="#"><img src="o.png" alt="Big Project"></a>
+		<a href="#"><img src="p.png" alt="Big Project"></a>
+	</div>
+		<div class="grup">
+			<h2><i>Grup Fun-Og</i></h2>
+			<h5>FeniOktaAgmel</h5>
+		</div>
+
+	</div>
+
+</body>
+</html>
